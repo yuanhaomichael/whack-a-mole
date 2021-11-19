@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./game.css">
+    </head>
+    <body>
+        <div id="title">
+            <div id="timer-module">
+                <h3 id="timer">Timer:</h3>
+                <h1 id="timer-data">30</h1>
+            </div>
+
+            <div id="score-module">
+                <h3 id="score">Score:</h3>
+                <h1 id="score-data">0</h1>
+            </div>
+        </div>
+
+        <div id="holes-grid">
+            <table>
+                <tr>
+                    <th><img src="hole.png" id="hole1"></th>
+                    <th><img src="hole.png" id="hole2"></th>
+                    <th><img src="hole.png" id="hole3"></th>
+                </tr>
+                <tr>
+                    <th><img src="hole.png" id="hole4"></th>
+                    <th><img src="hole.png" id="hole5"></th>
+                    <th><img src="hole.png" id="hole6"></th>
+                </tr>
+                <tr>
+                    <th><img src="hole.png" id="hole7"></th>
+                    <th><img src="hole.png" id="hole8"></th>
+                    <th><img src="hole.png" id="hole9"></th>
+                </tr>
+            </table>
+        </div>
+
+        
+        <button id="reset"">Reset Game</button>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="./game.js"></script>
+    </body>
+</html>
